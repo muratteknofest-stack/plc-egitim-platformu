@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { useSimulationStore } from '@/store/useSimulationStore';
-import { Power, CirclePower, Square, Activity, Zap } from 'lucide-react';
+import { Power, Square, Activity, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function MotorControlLab() {
@@ -110,7 +110,7 @@ export default function MotorControlLab() {
           {/* Sağ Panel: Simülasyon Görüntüsü */}
           <div className="bg-gray-800 border border-gray-700 rounded-xl p-6 shadow-2xl flex flex-col items-center justify-center relative overflow-hidden">
             <h2 className="text-xl font-semibold mb-6 flex items-center gap-2 border-b border-gray-700 pb-2 w-full absolute top-6 left-6 right-6">
-              <CirclePower className="text-yellow-400" /> Sistem Durumu
+              <Power className="text-yellow-400" /> Sistem Durumu
             </h2>
 
             <div className="mt-16 w-full flex flex-col items-center gap-12">
